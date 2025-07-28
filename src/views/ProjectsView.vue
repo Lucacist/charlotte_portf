@@ -1,8 +1,12 @@
 <template>
   <div class="projects-container">
     <div class="projects-grid">
-      <div v-for="project in projects" :key="project.id" class="project-item">
-        <ProjectCard :project="project" />
+      <div
+        v-for="(project, index) in projects"
+        :key="project.id"
+        class="project-item"
+      >
+        <ProjectCard :project="project" :index="index" />
       </div>
     </div>
   </div>
@@ -41,7 +45,6 @@ export default {
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-  gap: 2rem;
 }
 
 .project-item {

@@ -56,5 +56,138 @@
     "documentation": "/downloads/project3-doc.pdf",
     "status": "in-progress",
     "featured": false
+  },
+  {
+    "id": 3,
+    "title": "3",
+    "description": "none",
+    "shortDescription": "none",
+    "cardImage": "/images/projects/weather-card.jpg",
+    "detailImage": "/images/projects/weather.jpg",
+    "technologies": [
+      { "name": "Vue.js", "logo": "/images/logos/vue.png" },
+      { "name": "API", "logo": "/images/logos/api.png" },
+      { "name": "CSS", "logo": "/images/logos/css.png" }
+    ],
+    "link": "https://example.com/weather",
+    "github": "https://github.com/username/weather-app",
+    "codeDownload": "/downloads/project3-code.zip",
+    "documentation": "/downloads/project3-doc.pdf",
+    "status": "in-progress",
+    "featured": false
+  },
+  {
+    "id": 3,
+    "title": "3",
+    "description": "none",
+    "shortDescription": "none",
+    "cardImage": "/images/projects/weather-card.jpg",
+    "detailImage": "/images/projects/weather.jpg",
+    "technologies": [
+      { "name": "Vue.js", "logo": "/images/logos/vue.png" },
+      { "name": "API", "logo": "/images/logos/api.png" },
+      { "name": "CSS", "logo": "/images/logos/css.png" }
+    ],
+    "link": "https://example.com/weather",
+    "github": "https://github.com/username/weather-app",
+    "codeDownload": "/downloads/project3-code.zip",
+    "documentation": "/downloads/project3-doc.pdf",
+    "status": "in-progress",
+    "featured": false
+  },
+  {
+    "id": 3,
+    "title": "3",
+    "description": "none",
+    "shortDescription": "none",
+    "cardImage": "/images/projects/weather-card.jpg",
+    "detailImage": "/images/projects/weather.jpg",
+    "technologies": [
+      { "name": "Vue.js", "logo": "/images/logos/vue.png" },
+      { "name": "API", "logo": "/images/logos/api.png" },
+      { "name": "CSS", "logo": "/images/logos/css.png" }
+    ],
+    "link": "https://example.com/weather",
+    "github": "https://github.com/username/weather-app",
+    "codeDownload": "/downloads/project3-code.zip",
+    "documentation": "/downloads/project3-doc.pdf",
+    "status": "in-progress",
+    "featured": false
+  },
+  {
+    "id": 3,
+    "title": "3",
+    "description": "none",
+    "shortDescription": "none",
+    "cardImage": "/images/projects/weather-card.jpg",
+    "detailImage": "/images/projects/weather.jpg",
+    "technologies": [
+      { "name": "Vue.js", "logo": "/images/logos/vue.png" },
+      { "name": "API", "logo": "/images/logos/api.png" },
+      { "name": "CSS", "logo": "/images/logos/css.png" }
+    ],
+    "link": "https://example.com/weather",
+    "github": "https://github.com/username/weather-app",
+    "codeDownload": "/downloads/project3-code.zip",
+    "documentation": "/downloads/project3-doc.pdf",
+    "status": "in-progress",
+    "featured": false
+  },
+  {
+    "id": 3,
+    "title": "3",
+    "description": "none",
+    "shortDescription": "none",
+    "cardImage": "/images/projects/weather-card.jpg",
+    "detailImage": "/images/projects/weather.jpg",
+    "technologies": [
+      { "name": "Vue.js", "logo": "/images/logos/vue.png" },
+      { "name": "API", "logo": "/images/logos/api.png" },
+      { "name": "CSS", "logo": "/images/logos/css.png" }
+    ],
+    "link": "https://example.com/weather",
+    "github": "https://github.com/username/weather-app",
+    "codeDownload": "/downloads/project3-code.zip",
+    "documentation": "/downloads/project3-doc.pdf",
+    "status": "in-progress",
+    "featured": false
+  },
+  {
+    "id": 3,
+    "title": "3",
+    "description": "none",
+    "shortDescription": "none",
+    "cardImage": "/images/projects/weather-card.jpg",
+    "detailImage": "/images/projects/weather.jpg",
+    "technologies": [
+      { "name": "Vue.js", "logo": "/images/logos/vue.png" },
+      { "name": "API", "logo": "/images/logos/api.png" },
+      { "name": "CSS", "logo": "/images/logos/css.png" }
+    ],
+    "link": "https://example.com/weather",
+    "github": "https://github.com/username/weather-app",
+    "codeDownload": "/downloads/project3-code.zip",
+    "documentation": "/downloads/project3-doc.pdf",
+    "status": "in-progress",
+    "featured": false
+  },
+  {
+    "id": 3,
+    "title": "3",
+    "description": "none",
+    "shortDescription": "none",
+    "cardImage": "/images/projects/weather-card.jpg",
+    "detailImage": "/images/projects/weather.jpg",
+    "technologies": [
+      { "name": "Vue.js", "logo": "/images/logos/vue.png" },
+      { "name": "API", "logo": "/images/logos/api.png" },
+      { "name": "CSS", "logo": "/images/logos/css.png" }
+    ],
+    "link": "https://example.com/weather",
+    "github": "https://github.com/username/weather-app",
+    "codeDownload": "/downloads/project3-code.zip",
+    "documentation": "/downloads/project3-doc.pdf",
+    "status": "in-progress",
+    "featured": false
   }
 ]

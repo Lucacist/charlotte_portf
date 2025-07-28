@@ -1,5 +1,5 @@
 <template>
-  <div class="project-card" @click="navigateToProject">
+  <div class="project-card" :class="'card-color-' + (index % 10)" @click="navigateToProject">
     <div class="project-image">
       <img :src="project.cardImage || project.image" :alt="project.title" />
       <div v-if="project.status" class="status-badge" :class="project.status">
@@ -15,6 +15,9 @@
         </div>
       </div>
     </div>
+    <div class="project-overlay">
+      <span>Voir le projet</span>
+    </div>
   </div>
 </template>
 
@@ -25,6 +28,10 @@ export default {
     project: {
       type: Object,
       required: true
+    },
+    index: {
+      type: Number,
+      default: 0
     }
   },
   methods: {
@@ -48,20 +55,55 @@ export default {
 
 <style scoped>
 .project-card {
-  background-color: #ffffff;
-  border-radius: 8px;
   overflow: hidden;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: transform 0.3s ease;
   cursor: pointer;
   height: 100%;
   display: flex;
   flex-direction: column;
+  position: relative;
+  padding: 1rem;
+  gap: 1rem;
 }
 
-.project-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+.card-color-0 {
+  background-color: #ffffff; /* Blanc */
+}
+
+.card-color-1 {
+  background-color: #f7f7f7; /* Gris très clair */
+}
+
+.card-color-2 {
+  background-color: #f9f9f9; /* Blanc cassé */
+}
+
+.card-color-3 {
+  background-color: #fcfcfc; /* Blanc légèrement grisé */
+}
+
+.card-color-4 {
+  background-color: #f0f0f0; /* Gris clair */
+}
+
+.card-color-5 {
+  background-color: #f5f5f5; /* Gris très pâle */
+}
+
+.card-color-6 {
+  background-color: #fafafa; /* Blanc presque pur */
+}
+
+.card-color-7 {
+  background-color: #f8f8f8; /* Gris très léger */
+}
+
+.card-color-8 {
+  background-color: #fdfdfd; /* Blanc légèrement cassé */
+}
+
+.card-color-9 {
+  background-color: #f2f2f2; /* Gris pâle */
 }
 
 .project-image {
@@ -71,18 +113,44 @@ export default {
 }
 
 .project-image img {
-  width: 100%;
   height: 100%;
   object-fit: cover;
-  transition: transform 0.5s ease;
 }
 
-.project-card:hover .project-image img {
-  transform: scale(1.05);
+.project-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 3rem;
+  opacity: 0;
+  transition: opacity 0.3s ease;
 }
+
+.project-overlay span {
+  color: white;
+  font-size: 2.2rem;
+  font-weight: 600;
+  transform: translateY(100px);
+  transition: transform 0.3s ease;
+  font-family: 'Titan One', sans-serif;
+}
+
+.project-card:hover .project-overlay {
+  opacity: 1;
+}
+
+.project-card:hover .project-overlay span {
+  transform: translateY(0);
+}
+
 
 .project-info {
-  padding: 1.5rem;
   flex-grow: 1;
   display: flex;
   flex-direction: column;
