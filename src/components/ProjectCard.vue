@@ -71,7 +71,7 @@ export default {
 }
 
 .card-color-1 {
-  background-color: #f7f7f7; /* Gris très clair */
+  background-color: #f5f5f5; /* Gris très clair */
 }
 
 .card-color-2 {

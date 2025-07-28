@@ -14,27 +14,24 @@
     "link": "https://example.com/portfolio",
     "github": "https://github.com/username/portfolio",
     "codeDownload": "",
-    "documentation": "/pdf/Synthèse du projet.pdf",
+    "documentation": "/pdf/Synthèse_du_projet.pdf",
     "status": "in-progress",
     "featured": true
   },
   {
     "id": 2,
-    "title": "2",
-    "description": "none",
-    "shortDescription": "none",
-    "cardImage": "/images/projects/ecommerce-card.jpg",
-    "detailImage": "/images/projects/ecommerce.jpg",
+    "title": "Le cardiofréquencemètre",
+    "description": "Le cardiofréquencemètre est un projet d’électronique numérique visant à concevoir un système embarqué capable de mesurer en temps réel la fréquence cardiaque d’un individu.\n\nLe dispositif repose sur un capteur de type XD-58C utilisant la photopléthysmographie (PPG), une méthode optique qui détecte les variations de volume sanguin par réflexion lumineuse. Ce capteur est connecté à une carte Arduino Nano, qui traite les données analogiques grâce à la fonction analogRead().\n\nLe système calcule ensuite les battements par minute (BPM) à l’aide d’un algorithme basé sur le dépassement d’un seuil défini, ou via la bibliothèque PulseSensor Playground. L’état de santé du patient est affiché de manière intuitive à l’aide de trois LEDs (verte, orange, rouge) selon les plages de BPM détectées. Un buzzer émet également un son à chaque battement.\n\nUn écran OLED affiche à la fois la fréquence cardiaque et l’heure, obtenue via la bibliothèque TimeLib. L’ensemble du montage a été assemblé, testé, et optimisé pour être à la fois fonctionnel, pédagogique et facilement reproductible.\n\nCe projet a permis aux membres du groupe d’explorer des notions clés telles que la mesure de signaux physiologiques, le traitement de données en temps réel, l’affichage embarqué, et la conception électronique. Réalisé dans le cadre d’un projet académique en première année d’école d’ingénieurs, il met en avant une application concrète et utile des technologies embarquées au service de la santé.", 
+    "shortDescription": "Capteur de fréquence cardiaque",
+    "cardImage": "/images/projects/frequencemetre.png",
+    "detailImage": "/images/projects/frequencemetre.png",
     "technologies": [
-      { "name": "Vue.js", "logo": "/images/logos/vue.png" },
-      { "name": "Node.js", "logo": "/images/logos/nodejs.png" },
-      { "name": "Express", "logo": "/images/logos/express.png" },
-      { "name": "MongoDB", "logo": "/images/logos/mongodb.png" }
+      { "name": "Arduino", "logo": "/images/logos/Arduino.svg" }
     ],
-    "link": "https://example.com/ecommerce",
+    "link": "",
     "github": "https://github.com/username/ecommerce",
-    "codeDownload": "/downloads/project2-code.zip",
-    "documentation": "/downloads/project2-doc.pdf",
+    "codeDownload": "",
+    "documentation": "/pdf/Rapport_projet_electronique.pdf",
     "status": "in-progress",
     "featured": true
   },

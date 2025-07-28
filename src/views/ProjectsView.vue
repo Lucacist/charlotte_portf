@@ -32,7 +32,7 @@ export default {
 <style scoped>
 .projects-container {
     width: 100%;
-    margin-top: 2rem;
+    margin-top: 3rem;
 }
 
 .section-title {
