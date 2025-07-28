@@ -60,6 +60,15 @@ img {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  width: 100%;
+}
+
+.main-content {
+ display: flex;
+ flex-direction: column;
+ min-height: 100%;
+ width: 100%;
+ margin-top: 3.5rem;
 }
 
 .footer {

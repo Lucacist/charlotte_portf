@@ -25,7 +25,7 @@ const menuOpen = ref(false);
 
 // Fonction pour vérifier le défilement
 function checkScroll() {
-  scrolled.value = window.scrollY > 50;
+  scrolled.value = window.scrollY > 10;
 }
 
 // Fonction pour basculer le menu mobile
@@ -87,10 +87,11 @@ onUnmounted(() => {
 
 .logo {
   font-size: 1.5rem;
-  font-weight: 700;
+  font-weight: 200;
   color: #42b883;
   text-decoration: none;
   transition: color 0.3s ease;
+  font-family: "Oceanic-Medium", system-ui, Avenir, Helvetica, Arial, sans-serif;
 }
 
 .logo:hover {
