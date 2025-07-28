@@ -379,4 +379,11 @@ export default {
     font-size: 2rem;
   }
 }
+
+@media (max-width: 550px) {
+  .project-image img {
+    width: 100%;
+    height: auto;
+  }
+}
 </style>
