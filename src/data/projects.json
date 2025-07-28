@@ -37,7 +37,24 @@
   },
   {
     "id": 3,
-    "title": "3",
+    "title": "Contrôleur de feux tricolores",
+    "description": "Ce projet d’électronique numérique, réalisé dans le cadre d’un module académique à l’ECE Paris, visait à concevoir un contrôleur de feux tricolores fonctionnel à l’aide d’un FPGA DE10-Lite.\n\nLe système développé comprend deux feux tricolores pour les véhicules et deux feux piétons synchronisés. Il intègre également un buzzer à fréquence variable destiné à prévenir les piétons malvoyants, ainsi qu’un décompteur de temps visible sur afficheurs 7 segments, indiquant le temps restant avant le passage au vert pour les piétons.\n\nLe fonctionnement est piloté par une machine à états finie, modélisée graphiquement puis générée en langage VHDL grâce à l’environnement Quartus. Des registres à décalage sont utilisés pour piloter les LEDs des feux, tandis qu’un diviseur d’horloge convertit la fréquence de 50 MHz du FPGA en un signal proche de 1 Hz. Un potentiomètre devait permettre d’ajuster dynamiquement la durée du feu vert en fonction du trafic via un ADC, mais cette fonctionnalité n’a pas pu être finalisée.\n\nL’architecture logicielle a été pensée de manière modulaire, avec une séparation claire entre les modules de gestion de l’horloge, de l’affichage, de la logique de feu, et du signal sonore. Les tests ont été réalisés à l’aide d’un simulateur (Proteus) et sur breadboard.\n\nCe projet a permis aux membres du groupe de se familiariser avec la logique programmable, le langage VHDL, la conception de systèmes synchrones, l’affichage numérique et l’intégration matérielle. Il illustre la capacité à mener à bien un projet complet mêlant théorie, conception et implémentation dans un environnement temps réel contraint.",
+    "shortDescription": "Contrôleur de feux tricolores",
+    "cardImage": "/images/projects/un-feu-tricolore.png",
+    "detailImage": "/images/projects/un-feu-tricolore.png",
+    "technologies": [
+      { "name": "VHDL", "logo": "/images/logos/vhdl.svg" }
+    ],
+    "link": "",
+    "github": "https://github.com/username/weather-app",
+    "codeDownload": "",
+    "documentation": "/pdf/Projet_VHDL.pdf",
+    "status": "in-progress",
+    "featured": false
+  },
+  {
+    "id": 4,
+    "title": "Application mobile",
     "description": "none",
     "shortDescription": "none",
     "cardImage": "/images/projects/weather-card.jpg",
@@ -55,8 +72,8 @@
     "featured": false
   },
   {
-    "id": 3,
-    "title": "3",
+    "id": 5,
+    "title": "Site e-commerce",
     "description": "none",
     "shortDescription": "none",
     "cardImage": "/images/projects/weather-card.jpg",
@@ -74,8 +91,8 @@
     "featured": false
   },
   {
-    "id": 3,
-    "title": "3",
+    "id": 6,
+    "title": "Portfolio personnel",
     "description": "none",
     "shortDescription": "none",
     "cardImage": "/images/projects/weather-card.jpg",
@@ -93,8 +110,8 @@
     "featured": false
   },
   {
-    "id": 3,
-    "title": "3",
+    "id": 7,
+    "title": "Application météo",
     "description": "none",
     "shortDescription": "none",
     "cardImage": "/images/projects/weather-card.jpg",
@@ -112,8 +129,8 @@
     "featured": false
   },
   {
-    "id": 3,
-    "title": "3",
+    "id": 8,
+    "title": "Jeu vidéo 2D",
     "description": "none",
     "shortDescription": "none",
     "cardImage": "/images/projects/weather-card.jpg",
@@ -131,8 +148,8 @@
     "featured": false
   },
   {
-    "id": 3,
-    "title": "3",
+    "id": 9,
+    "title": "Application de notes",
     "description": "none",
     "shortDescription": "none",
     "cardImage": "/images/projects/weather-card.jpg",
@@ -150,27 +167,8 @@
     "featured": false
   },
   {
-    "id": 3,
-    "title": "3",
-    "description": "none",
-    "shortDescription": "none",
-    "cardImage": "/images/projects/weather-card.jpg",
-    "detailImage": "/images/projects/weather.jpg",
-    "technologies": [
-      { "name": "Vue.js", "logo": "/images/logos/vue.png" },
-      { "name": "API", "logo": "/images/logos/api.png" },
-      { "name": "CSS", "logo": "/images/logos/css.png" }
-    ],
-    "link": "https://example.com/weather",
-    "github": "https://github.com/username/weather-app",
-    "codeDownload": "/downloads/project3-code.zip",
-    "documentation": "/downloads/project3-doc.pdf",
-    "status": "in-progress",
-    "featured": false
-  },
-  {
-    "id": 3,
-    "title": "3",
+    "id": 10,
+    "title": "Blog personnel",
     "description": "none",
     "shortDescription": "none",
     "cardImage": "/images/projects/weather-card.jpg",
