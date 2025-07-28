@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar" :class="{ 'scrolled': scrolled }">
     <div class="navbar-container">
-      <router-link to="/" class="logo">Charlotte</router-link>
+      <router-link to="/" class="logo"><img src="/images/logo.svg" alt="Logo"></router-link>
       
       <button class="menu-toggle" @click="toggleMenu" :class="{ 'active': menuOpen }" aria-label="Toggle menu">
         <span></span>
@@ -83,6 +83,10 @@ onUnmounted(() => {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.navbar-container img {
+  width: 90px;
 }
 
 .logo {
