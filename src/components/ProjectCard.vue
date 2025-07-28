@@ -1,7 +1,7 @@
 <template>
   <div class="project-card" @click="navigateToProject">
     <div class="project-image">
-      <img :src="project.image" :alt="project.title" />
+      <img :src="project.cardImage || project.image" :alt="project.title" />
       <div v-if="project.status" class="status-badge" :class="project.status">
         {{ getStatusLabel(project.status) }}
       </div>

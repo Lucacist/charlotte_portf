@@ -39,7 +39,7 @@
 
     <div class="project-content">
       <div class="project-image">
-        <img :src="project.image" :alt="project.title" />
+        <img :src="project.detailImage || project.image" :alt="project.title" />
       </div>
 
       <div class="project-description">

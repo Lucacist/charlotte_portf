@@ -4,7 +4,8 @@
     "title": "InstaScurity",
     "description": "InstaSecurity est une plateforme web conçue pour lutter contre le cyberharcèlement en impliquant de nouveaux acteurs clés : les témoins et les parents.\n\nContrairement aux solutions existantes qui se concentrent uniquement sur les victimes, ce projet propose un système de signalement anonyme permettant aux témoins de déclarer une situation préoccupante, avec envoi automatique d’une alerte aux parents lorsque trois signalements valides sont recensés.\n\nLe site permet aux utilisateurs de signaler des incidents en joignant une capture d’écran. Le texte est alors extrait via Tesseract.js et analysé à l’aide de l’API Perspective de Google pour mesurer la toxicité du contenu. Si un seuil critique est atteint, le signalement est enregistré. À partir de trois signalements sur un même pseudo, un mail personnalisé est envoyé aux parents concernés.\n\nTechniquement, la plateforme repose sur Next.js pour le développement, Tailwind CSS pour le design, et Supabase pour la base de données. Un soin particulier a été apporté à la conformité RGPD, avec une architecture respectueuse des données personnelles.\n\nInstaSecurity inclut également des pages de prévention et de sensibilisation, pour informer et accompagner les jeunes face au cyberharcèlement. Ce projet, réalisé dans un cadre académique, aboutit à une solution fonctionnelle, innovante et éthique, prête à être enrichie et élargie à d’autres réseaux sociaux.",
     "shortDescription": "Plateforme anti-cyberharcèlement",
-    "image": "/images/projects/instasecurity.png",
+    "cardImage": "/images/projects/instasecupc.png",
+    "detailImage": "/images/projects/instasecurity.png",
     "technologies": [
       { "name": "Tailwind", "logo": "/images/logos/Tailwind.svg" },
       { "name": "Next.js", "logo": "/images/logos/next.svg" },
@@ -22,7 +23,8 @@
     "title": "2",
     "description": "none",
     "shortDescription": "none",
-    "image": "/images/projects/ecommerce.jpg",
+    "cardImage": "/images/projects/ecommerce-card.jpg",
+    "detailImage": "/images/projects/ecommerce.jpg",
     "technologies": [
       { "name": "Vue.js", "logo": "/images/logos/vue.png" },
       { "name": "Node.js", "logo": "/images/logos/nodejs.png" },
@@ -41,7 +43,8 @@
     "title": "3",
     "description": "none",
     "shortDescription": "none",
-    "image": "/images/projects/weather.jpg",
+    "cardImage": "/images/projects/weather-card.jpg",
+    "detailImage": "/images/projects/weather.jpg",
     "technologies": [
       { "name": "Vue.js", "logo": "/images/logos/vue.png" },
       { "name": "API", "logo": "/images/logos/api.png" },
